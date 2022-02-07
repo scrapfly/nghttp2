@@ -12,7 +12,7 @@
 
 
 # Only use standalone-toolchain for reduce size
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 MAINTAINER Tatsuhiro Tsujikawa
 ENV ANDROID_HOME /root
 ENV TOOLCHAIN $ANDROID_HOME/toolchain
