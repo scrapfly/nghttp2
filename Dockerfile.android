@@ -12,7 +12,7 @@
 
 
 # Only use standalone-toolchain for reduce size
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 MAINTAINER Tatsuhiro Tsujikawa
 
 ENV NDK_VERSION r25b
